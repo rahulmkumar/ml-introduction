@@ -3,7 +3,7 @@
 - App to generate your features and labels
 - Add all features you can think of
 
-# 2. Prepare Problem:
+# 2. Prepare Problem
 - Load Libraries
 - Load Dataset
 
@@ -43,16 +43,16 @@
     - Loocv
     - Repeated Randon train-test splits
 - Test options and evaluation metric: Algorithm Performance Metrics
-- Classification Metrics
-     - Classification Accuracy
-     - Logarithmic Loss
-     - Area under ROC curve
-     - Confusion Matrix
-     - Classification Report: precision , recall, F1 score, support
-- Regression Metrics
-     - Mean Absolute Error
-     - Mean Squared Error
-     - R^2
+    - Classification Metrics
+         - Classification Accuracy
+         - Logarithmic Loss
+         - Area under ROC curve
+         - Confusion Matrix
+         - Classification Report: precision , recall, F1 score, support
+    - Regression Metrics
+         - Mean Absolute Error
+         - Mean Squared Error
+         - R^2
 - Algorithm Performance: Spot-Check Algorithms
     - Classification
         - Linear Algorithms
