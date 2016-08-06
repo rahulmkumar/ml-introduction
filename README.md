@@ -1,20 +1,16 @@
-# ml-introduction
-# 1. Feature Engineering
-- App to generate your features and labels
-- Add all features you can think of
+# Applied Machine Learning using scikit-learn and XGBoost
 
-# 2. Prepare Problem
+# 1. Prepare Environment & Data
 - Load Libraries
 - Load Dataset
 
-# 3. Summarize Data
+# 2. Summarize Data: Statistics & Visualization
 - Data Exploration: Descriptive Statistics
-    - describe(): statistics
+    - describe(): statistics - mean, stdev, min/max
     - class distribution
     - correlations
     - skew
     - data types
-
 - Data Exploration: Visualization
     - histogram
     - density plot
@@ -22,7 +18,7 @@
     - correlation matrix plot
     - scatter plot matrix
 
-# 4. Prepare Data
+# 3. Data Pre-Processing
 - Data Cleaning
 - Data Pre-Processing
     - Rescale
@@ -36,24 +32,24 @@
      - Feature Importance
 - Data Transform
 
-# 5. Evaluate Algorithms: Data -> Algorithms -> Performance Metrics
+# 4. Model Evaluation: Data -> Model -> Performance Metrics
 - Split-out validation dataset: Resampling
     - Train-Test Data split
     - k-fold cross validation
-    - Loocv
-    - Repeated Randon train-test splits
-- Test options and evaluation metric: Algorithm Performance Metrics
+    - LOOCV
+    - Repeated Random train-test splits
+- Algorithm Performance Metrics
     - Classification Metrics
          - Classification Accuracy
          - Logarithmic Loss
          - Area under ROC curve
          - Confusion Matrix
-         - Classification Report: precision , recall, F1 score, support
+         - Classification Report: precision, recall, F1 score, support
     - Regression Metrics
          - Mean Absolute Error
          - Mean Squared Error
          - R^2
-- Algorithm Performance: Spot-Check Algorithms
+- Algorithm Performance
     - Classification
         - Linear Algorithms
             - Logistic Regression
@@ -73,14 +69,14 @@
             - kNN
             - CART
             - SVM (SVR)
-- Compare Algorithms
+- Algorithm Comparison
      - Test harness to compare multiple algorithms efficiently on a single dataset
      - Comparison visualization
 - Preventing Data Leakage using Pipelines
     - Data Preparation and Modeling Pipeling
     - Feature Extractions and Modeling Pipeling
 
-# 6. Improve Accuracy
+# 5. Improve Accuracy
 - Algorithm Tuning: Hyperparameter Optimization
     - Grid Search Parameter Tuning
     - Random Search Parameter Tuning
@@ -91,12 +87,12 @@
         - Extra Trees
     - Boosting
         - AdaBoost
-        - Stochastic Gradient Boosting (Gradient Boosting Machines - GBM)
+        - XGBoost: Stochastic Gradient Boosting (Gradient Boosting Machines - GBM)
     - Voting
 
-# 7. Finalize Model
+# 6. Finalize Model
 - Predictions on validation dataset
-- Create standalone model on entire training dataset
-- Save model for later use
+- Create standalone model on entire dataset
+- Model persistence
     - pickle
     - joblib
